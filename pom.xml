@@ -11,17 +11,8 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
-  <distributionManagement>
-    <repository>
-    <id>releases</id>
-    <url>http://54.153.77.32:8080/nexus/content/repositories/releases/</url>
-    </repository>
-    <snapshotRepository>
-    <id>snapshots</id>
-<url>http://54.153.77.32:8080/nexus/content/repositories/snapshots/<url>
-    </snapshotRepository>
-  </distributionManagement>
-  <dependencies>
+  
+   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -30,3 +21,14 @@
     </dependency>
   </dependencies>
 </project>
+  <distributionManagement>
+    <repository>
+    <id>releases</id>
+    <url>http://54.153.77.32:8080/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+    <id>snapshots</id>
+<url>http://54.153.77.32:8080/nexus/content/repositories/snapshots/</<url>
+    </snapshotRepository>
+  </distributionManagement>
+ 
