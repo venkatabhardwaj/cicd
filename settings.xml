@@ -1,0 +1,20 @@
+<settings>
+
+<!-- #####################################  for nexus atifactory server credentials ############ -->
+<servers>
+  <server>
+   <id>releases</id>
+   <username>admin</username>
+   <password>admin123</password>
+  </server>
+  <server>
+    <id>snapshots</id>
+    <username>deployment</username>
+    <password>deployment123</password>
+  </server>
+</servers>
+<!-- **********************************  ****************************************** -->
+
+
+
+</settings>
